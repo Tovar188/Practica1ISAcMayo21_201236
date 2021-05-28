@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color:white;
+    height: 70px;
+    border: 1px grey solid;
+}
+
+.ancho{
+    width: 80%;
+    height: 70px;
+    /*background: red;*/
+    margin: auto;
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    /*background-color: blue;*/
+    float: left;/*para ponerlo lo mas izquierdo posible el nav dentro del header*/
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.logo p a{
+    color: black;
+    font-size: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+nav{
+    width: 70%;
+    height: 70px;
+    /*background: chartreuse;*/
+    float: left;
+    text-align: right;
+    padding-top: 24px;/*para centrar las palabras dentro de header*/
+    box-sizing: border-box;/*para que no se pase de la altura establecida en height*/
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: black;/*color de la letra*/
+    font-size: 20px;/*tamaño de letra*/
+    text-decoration: none;/*para que las letrass no tengan ninguna decoracion*/
+    text-transform: uppercase;/*convertir a mayuscula*/
+    padding-left: 15px;/*para separar las letras*/
+    font-weight: bold;/*letras en negrita*/
+    letter-spacing: 1px;/*espaciado en las letras*/
+    font-family: Arial;/*tipo de letra*/
+}
+
+nav ul li a:hover{
+    color: gray;
+}
